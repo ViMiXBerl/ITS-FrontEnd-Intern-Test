@@ -1,0 +1,59 @@
+.main {
+	position: relative;
+	display: grid;
+	grid-template-areas:
+		"video slider"
+		"video slider";
+	grid-template-rows: 1fr;
+	grid-template-columns: 0.9fr 1fr 1fr;
+}
+
+.text {
+	display: block;
+	width: 25%;
+	margin-top: 2rem;
+	padding: 0 !important;
+	text-align: right;
+}
+
+.player-wrapper {
+	margin-top: 3rem;
+	margin-right: 3rem !important;
+	margin-left: 0rem !important;
+	padding: 0 !important;
+	width: 75% !important;
+}
+
+.image-for-video {
+	width: 100%;
+	position: relative;
+}
+
+.box {
+	position: absolute;
+	right: 14rem;
+	top: 3.1rem;
+	z-index: -3;
+}
+
+.box-line {
+	position: absolute;
+	width: 56%;
+	top: 6.6rem;
+	right: 17.4rem;
+	z-index: -2;
+}
+
+.model {
+	position: absolute;
+	bottom: -16rem;
+	right: 27.5rem;
+	z-index: 1;
+}
+
+.box-shadow {
+	position: absolute;
+	width: 100%;
+	right: 0rem;
+	z-index: -4;
+}

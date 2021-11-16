@@ -1,0 +1,38 @@
+.navbar-nav {
+	margin-left: auto;
+}
+
+.nav-link {
+	padding: 0.8rem !important;
+	margin-right: 1rem !important;
+	font-size: 18px;
+	font-family: "Source Sans Pro Semibold";
+	color: rgba(196, 69, 244) !important;
+	text-transform: uppercase;
+	border-radius: 8px;
+	outline: none;
+}
+.nav-item {
+	margin-right: 0 !important;
+}
+
+#basic-nav-dropdown:hover {
+	background-color: rgba(234, 0, 255, 0.24) !important;
+}
+
+.dropdown-menu {
+	min-width: 6rem !important;
+	border-radius: 10px;
+}
+
+.dropdown-item:hover {
+	background-color: rgba(234, 0, 255, 0.24) !important;
+}
+
+.navbar-toggler {
+	background-color: rgba(235, 0, 255, 1) !important;
+	border-radius: 10px;
+	outline: none;
+	border: none !important;
+	box-shadow: none;
+}
